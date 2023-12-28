@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td,th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td:nth-child(odd){
+            background-color: rgb(223, 223, 223);
+        }
+        th:nth-child(odd){
+            background-color: rgb(229, 229, 229);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>product</th>
+            <th>cloud data base</th>
+            <th>billing mode</th>
+            <th>prepaid</th>
+            <th>automatic renewal</th>
+            <th>YES</th>
+        </tr>
+        <tr>
+            <td>order time</td>
+            <td>2018-4-4 18:00:00</td>
+            <td>usage time</td>
+            <td colspan="3">2019-04-24  18:00:00</td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td colspan="5" >running</td>
+        </tr>
+        <tr>
+            <td>Negotiated Amount</td>
+            <td>$80.00</td>
+            <td>discount</td>
+            <td>$20.00</td>
+            <td>official receipts</td>
+            <td>$60.00</td>
+        </tr>
+        <tr>
+            <td>config info</td>
+            <td colspan="5">Lorem ipsum dolor sit <br> amet consectetur <br> adipisicing elit. Natus, sequi.</td>
+        </tr>
+    </table>
+</body>
+</html>
